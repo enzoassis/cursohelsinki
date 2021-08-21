@@ -16,5 +16,7 @@ public class ex3print_Integer {
         int value = Integer.valueOf(value_as_string2);
 
         System.out.println(value);
+
+        scanner.close();
     }
 }

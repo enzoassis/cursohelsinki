@@ -35,8 +35,10 @@ public class ex2 {
             System.out.println("Não fique triste, Naruto também não tinha pais...");
         } 
         else {
-            System.out.println("Cê é burro carai? Responde com sim ou nao.");
+            System.out.println("Cê é burro mano? Responde com sim ou nao.");
         }
+
+        scanner.close();
         
     }
 }

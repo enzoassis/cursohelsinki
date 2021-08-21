@@ -15,6 +15,6 @@ public class ex7leapYear {
         } else {
             System.out.println("The year is a leap year");
         }
-
+        scan.close();
     }
 }

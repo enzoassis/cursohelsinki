@@ -16,5 +16,7 @@ public class ex4printDouble {
         double value2 = Double.valueOf(scanner.nextLine());
        
         System.out.println("You wrote " + value2);
+        
+        scanner.close();
     }
 }

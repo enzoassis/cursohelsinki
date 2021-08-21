@@ -31,6 +31,6 @@ public class ex8giftTax {
             System.out.println("No tax!");
         }
         
-
+            scan.close();
     }
 }

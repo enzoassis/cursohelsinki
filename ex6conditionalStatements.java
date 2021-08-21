@@ -19,6 +19,7 @@ public class ex6conditionalStatements {
         } else {
             System.out.println("Try again!");
         }
+        scan.close();
     }
     
 }
