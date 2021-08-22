@@ -12,6 +12,7 @@ public class ex10While2 {
                 System.out.println("Unsuitable number");
                 continue;
             } 
+            
             if (number == 0) {
                 break;
             } 
