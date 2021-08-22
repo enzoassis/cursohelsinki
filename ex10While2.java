@@ -7,14 +7,16 @@ public class ex10While2 {
         while(true){
             System.out.println("Give a number: ");
             int number = Integer.valueOf(scan.nextLine());
+            
             if(number < 0){
                 System.out.println("Unsuitable number");
                 continue;
-            } else if (number > 0) {
-                System.out.println(number * number);
-            } else {
+            } 
+            if (number == 0) {
                 break;
-            }
+            } 
+            
+            System.out.println(number * number);
         }
     }
     
